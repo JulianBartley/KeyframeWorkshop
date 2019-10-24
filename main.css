@@ -5,6 +5,11 @@ body{
   text-align: center;
 }
 
+h1:hover{
+  font-size:50px;
+  transition: .2s;
+}
+
 h1{
   background-color: #ea5169;
   border-radius: 100px;
@@ -49,5 +54,6 @@ ul{
 }
 
 img:hover{
-  height: 250px;
+  height: 190px;
+  transition: .2;
 }
