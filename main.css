@@ -12,12 +12,19 @@ h1:hover{
 
 h1{
   background-color: #ea5169;
-  border-radius: 100px;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  margin: 0 auto;
+
+  /*  */
 }
 
 p{
   width: 80%;
   margin: 0 auto;
+  /* margin-top: 10%; */
+
 }
 
 .images img{
@@ -25,6 +32,9 @@ p{
   margin-top: 70px;
   margin-bottom: 50px;
   margin-right: 50px;
+  border: 10px solid #ea5169;
+
+  transition: 3s;
 
 }
 
@@ -53,7 +63,7 @@ ul{
   height: 100%;
 }
 
-img:hover{
-  height: 190px;
-  transition: .2;
+.images img:hover{
+  height: 278px;
+
 }
