@@ -15,13 +15,39 @@ p{
   margin: 0 auto;
 }
 
-img{
+.images img{
   border-radius: 50%;
   margin-top: 70px;
   margin-bottom: 50px;
   margin-right: 50px;
+
 }
 
 footer{
   font-size: 9px;
+  background-color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+.grid-header{
+  display: grid;
+  width: 50%;
+}
+/* add gradient to the footer */
+.grid-container{
+  display: grid;
+  grid-template-columns: 400px 400px;
+  height: inherit;
+  background-image:linear-gradient(#ea5169, white);
+  justify-content: center;
+}
+
+.bottom {
+  height: 100%;
+}
+
+img:hover{
+  height: 250px;
 }
