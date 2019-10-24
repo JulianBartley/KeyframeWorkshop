@@ -63,13 +63,7 @@ ul{
   height: 100%;
 }
 
-<<<<<<< HEAD
 .images img:hover{
   height: 278px;
 
-=======
-img:hover{
-  height: 190px;
-  transition: .2;
->>>>>>> 0a1b89f8e865d3d1bcf650339dc1ab005175b939
 }
